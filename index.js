@@ -21,7 +21,7 @@ function atualizarTela() {
 
     lista.forEach(function(produtos){
         itens.innerHTML += '<li data-value="'+produtos._valor+'">'+
-        '<input type="checkbox" data-bs-toggle="modal" data-bs-target="#exampleModal" name="'+produtos._nome+'" id="'+produtos._id+'"/>'+
+        '<input type="checkbox" class="li" data-bs-toggle="modal" data-bs-target="#exampleModal" name="'+produtos._nome+'" id="'+produtos._id+'"/>'+
         '<label for="check"> '+produtos._nome+'</label>'+
         "</li>";
     });

@@ -1,9 +1,26 @@
 * {
     padding:0;
     margin:0;
-    vertical-align:baseline;
-    list-style:none;
     border:0
     }
 
+    .formInput {
+        margin: 30px;
+    }
+
+    .input {
+        border-width: 2px;
+        border-style:inset;
+        border-color: black;
+    }
+
+    .btnInput {
+        border-width: 2px;
+        border-style:inset;
+        border-color: black;
+    }
+
+    .lista {
+        margin: 30px;
+    }
     
